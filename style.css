@@ -6,11 +6,21 @@
   
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #ff8f8f;
     color: #333;
     line-height: 1.6;
     padding: 40px;
   }
+
+  .bandeiras-topo {
+    background-image: url('./images/bandeiras.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 150px; /* ajuste conforme o tamanho da sua imagem */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }  
   
   .header {
     display: flex;
@@ -26,10 +36,10 @@
   .container {
     max-width: 800px;
     margin: auto;
-    background: #fff;
+    background: #ffee8d;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px #0000001a;
+    box-shadow: 0 4px 10px #0000008c;
   }
   
   h1 {
